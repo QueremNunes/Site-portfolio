@@ -32,6 +32,10 @@ h5 {
   top: 25px;
 }
 
+a {
+  color: deeppink;
+}
+
 button {
   height: 56px;
   border-radius: 16px;
