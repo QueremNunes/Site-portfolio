@@ -4,6 +4,7 @@
     <head>
       <title>Querem Nunes</title>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -11,11 +12,10 @@
       <div class="barra-navegacao">
         <h2 class="titulo-navegacao">Querem Nunes</h2>
         <div>
-          <a class="links-navegacao">Habilidades</a>
-          <a class="links-navegacao">Portfólio</a>
-          <a class="=links-navegacao">Experiência</a>
+          <a onclick="onClickScrollTo('section-abilities')" class="links-navegacao">Habilidades</a>
+          <a class="links-navegacao"onclick="onClickScrollTo('section-experiences')">Experiência</a>
         </div>
-        <button>CONTATO</button>
+        <button onclick="onClickScrollTo('section-contact')">CONTATO</button>
       </div>
       <div class="hero-info">
         <div>
@@ -26,18 +26,18 @@
           <p class="hero-info-subtitle">
             Programadora desde 2023, com foco em desenvolvimento web e mobile.
           </p>
-          <button>ENTRAR EM CONTATO</button>
+          <button onclick="onClickScrollTo('section-contact')">ENTRAR EM CONTATO</button>
           <div class="hero-info-icons-container">
-            <a>
+            <a onclick="onClickLink('https://github.com/QueremNunes')">
               <img alt="Github" class="hero-info-icons-img" src="icons/github.png"/>
             </a>
-            <a>
+            <a onclick="onClickLink('https://www.linkedin.com/feed/')">
               <img alt="Linkedin" class="hero-info-icons-img" src="icons/linkedin.png"/>
             </a>
             <a>
               <img alt="Youtube" class="hero-info-icons-img" src="icons/youtube.png"/>
             </a>
-            <a>
+            <a onclick="onClickLink('https://www.instagram.com/queremnunes/')">
               <img alt="instagram" class="hero-info-icons-img" src="icons/instagram.png"/>
             </a>
           </div>
@@ -51,7 +51,7 @@
             </div>
           </div>
     </section>
-    <section class="section-abilities">
+    <section class="section-abilities" id="section-abilities">
       <h2 class="rosa">Habilidades que domino.</h2>
       <div class="ability-cards-container">
         <div class="ability-card">
@@ -118,7 +118,7 @@
       </div>
       </div>
     </section>
-    <section class="section-experiences">
+    <section class="section-experiences" id="section-experiences">
       <h2 class="rosa">Experiências profissionais.</h2>
       <div class="section-experiences-card">
         <img class="section-experiences-card-img" src="company/developer.png" />
@@ -140,34 +140,34 @@
         </div>
       </div>
     </section>
-    <section class="section-contact">
+    <section class="section-contact" id="section-contact">
       <h2 class="rosa">Como posso te ajudar?</h2>
     </section>
     <section class="section-contact1">Estou à diposição para ajudar o seu projeto ou sua empresa.</section>
     <div class="section-contact-item">
       <img src="icons/email.png" alt="E-mail icon" class="section-contact-item-icon"/>
     </div>
-    <section class="section-contact-item-icon2">querem1@icloud.com</section>
+    <section class="section-contact-item-icon2"><a href="malito:querem1@icloud.com" >querem1@icloud.com</section></a>
     <div class="section-contact-item">
       <img src="icons/cel.png" alt="Phone icon" class="section-contact-item-icon"/>
     </div>
-    <section class="section-contact-item-icon1">(64)992037404</section>
+    <section class="section-contact-item-icon1"><a href="tel:(64)992037404" >(64)992037404</section></a>
     <div>
       <footer>
         <div class="footer-content">
           <h2 class="titulo-navegacao">Querem Nunes</h2>
           <div class="footer-social-icons-container">
             <div class="hero-info-icons-container">
-              <a>
+              <a onclick="onClickLink('https://github.com/QueremNunes')">
                 <img alt="Github" class="hero-info-icons-img" src="icons/github.png"/>
               </a>
-              <a>
+              <a onclick="onClickLink('https://www.linkedin.com/feed/')">
                 <img alt="Linkedin" class="hero-info-icons-img" src="icons/linkedin.png"/>
               </a>
               <a>
                 <img alt="Youtube" class="hero-info-icons-img" src="icons/youtube.png"/>
               </a>
-              <a>
+              <a onclick="onClickLink('https://www.instagram.com/queremnunes/')">
                 <img alt="instagram" class="hero-info-icons-img" src="icons/instagram.png"/>
               </a>
             </div>
