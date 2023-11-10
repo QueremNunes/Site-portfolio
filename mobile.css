@@ -1,0 +1,125 @@
+@media only screen and (max-device-width: 450px) {
+  .titulo-navegacao {
+    font-size: 32px;
+    position: relative;
+    top: 5px;
+    left: 200px;
+  }
+
+  .hero-info-image {
+    height: 5t00px;
+    width: 500px;
+    top: 200px;
+    left: 250px;
+  }
+  .hero-info-title {
+    font-size: 48px;
+    position: absolute;
+    left: 250px;
+    top: 350px;
+  }
+
+  .hero-info-subtitle {
+    font-size: 35px;
+    position: relative;
+    left: 300px;
+    top: 550px;
+  }
+
+  button {
+    font-size: 32px;
+    position: relative;
+    left: 350px;
+    top: 580px;
+  }
+
+  .hero-info-icons-container {
+    position: relative;
+    left: 350px;
+    top: 670px;
+  }
+
+  .section-abilities {
+    position: relative;
+    top: -550px;
+    font-size: 38px;
+  }
+
+  .ability-card-subtitle {
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 280px;
+  }
+
+  .ability-card-subtitle2 {
+    font-size: 16px;
+    position: absolute;
+    left: 350px;
+    top: 280px;
+  }
+
+  .ability-card-subtitle3 {
+    font-size: 16px;
+    position: absolute;
+    left: 690px;
+    top: 280px;
+  }
+
+  .ability-list {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+  }
+
+  .ability-list2 {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  }
+
+  .ability-list3 {
+    position: absolute;
+    top: 400px;
+    left: 690px;
+  }
+
+  .section-experiences {
+    position: relative;
+    left: 40px;
+    top: -600px;
+    font-size: 38px;
+  }
+
+  .section-contact {
+    position: relative;
+    left: 40px;
+    top: -600px;
+    font-size: 38px;
+  }
+
+  .section-contact1 {
+    position: relative;
+    left: 40px;
+    top: -690px;
+    font-size: 24px;
+  }
+
+  .section-contact-item-icon {
+    position: relative;
+    top: -700px;
+    right: 65px;
+  }
+
+  .section-contact-item-icon1 {
+    position: relative;
+    top: -727px;
+    left: 455px;
+  }
+
+  .section-contact-item-icon2 {
+    position: relative;
+    top: -727px;
+    left: 455px;
+  }
+}
