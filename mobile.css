@@ -1,4 +1,7 @@
 @media only screen and (max-device-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
   .titulo-navegacao {
     font-size: 32px;
     position: relative;
