@@ -7,6 +7,10 @@ The main goal is create a website with my professional information.
 
 <img src="https://github.com/QueremNunes/site-portfolio/blob/main/preview.png" height="500">
 
+## Live link:
+
+https://queremnunes.github.io/site-portfolio1/
+
 ## Main concepts applied
 
 -Flexbox
