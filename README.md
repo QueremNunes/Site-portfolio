@@ -13,3 +13,27 @@ The main goal is create a website with my professional information.
 -DOM manipulation
 -Events
 -CsS Media Query
+
+## Instructions to run:
+
+1. Clone the project:
+
+```
+git clone git@github.com:QueremNunes/site-portfolio.git
+```
+
+2. After clone open the folder:
+
+```
+site-portfólio
+
+
+3. Open the index file with the browser:
+
+```
+
+index.html
+
+```
+
+```
